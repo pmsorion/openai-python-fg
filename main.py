@@ -23,6 +23,7 @@ def main():
         content = __prompt()
 
         if content == "new":
+            print("[green]Nueva conversación creada[/green]")
             messages = [context]
             content = __prompt()
 
